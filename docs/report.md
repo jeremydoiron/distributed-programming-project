@@ -32,4 +32,4 @@ traditional Russian folk dance in which performers dance with linked arms in a c
 - `tree_allreduce`: Uses a binary tree-based pattern to synchronize gradients.
 - `mpi_allreduce`: Utilizes the built-in MPI.Allreduce for efficient gradient aggregation. It uses different algorithms depending such as ring-allreduce, tree-allreduce and much more.
 
-### Benchmarks
+## Benchmarks
