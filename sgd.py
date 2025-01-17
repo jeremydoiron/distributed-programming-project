@@ -13,7 +13,7 @@ n_features = 1000
 
 # Dataset
 np.random.seed(42 + rank)
-data_size_per_rank = 1_000_000
+data_size_per_rank = 10_000
 X = np.random.randn(data_size_per_rank, n_features)  # Features
 y = np.random.randn(data_size_per_rank, 1)  # Labels
 
